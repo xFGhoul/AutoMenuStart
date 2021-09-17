@@ -42,7 +42,7 @@ data = request.json()
 latest = data['tag_name'][1:]
 download_url = data['assets'][0]
 
-if latest < THIS_VERSION:
+if latest > THIS_VERSION:
     time.sleep(2)
     os.system('cls')
     console.print("""[cyan1]

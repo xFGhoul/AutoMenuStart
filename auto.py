@@ -58,7 +58,7 @@ if latest < THIS_VERSION:
     dl_path = Path.home() / 'Downloads/AutoStartMenuDL' / f'v{latest}' / f'v{latest}'
     download(download_url['browser_download_url'], dl_path, progressbar=True, kind="zip", verbose=False)
     console.print(f"[cyan1]Updated Downloaded. SEE => {dl_path}[/cyan1]")
-    console.print(f"[cyan1]Exiting Because New Version Is Available, Extract And Use The Newwer Version")
+    console.print(f"[cyan1]Exiting Because New Version Is Available, Extract And Use The Newwer Version[/cyan1]")
     time.sleep(5)
     raise SystemExit
 

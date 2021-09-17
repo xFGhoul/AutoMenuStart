@@ -35,7 +35,7 @@ console.print("[cyan1]Before We Get Started I am Going To Check For Updates.[/cy
 # -------------------------------------------------------------------
 # -------------------------------------------------------------------
 
-THIS_VERSION = "1.0.5"
+THIS_VERSION = "1.0.6"
 
 request = requests.get("https://api.github.com/repos/xFGhoul/AutoMenuStart/releases/latest")
 data = request.json()
